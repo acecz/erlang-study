@@ -1,0 +1,6 @@
+A.unbuntu-14.04
+1.sudo apt-get install erlang
+2.download src and make install
+  a.src download:http://www.erlang.org/download.html
+  b.install curses libs:sudo apt-get install libncurses5-dev 
+  c.install erlang:configuration,make and install:./configure --prefix=/usr/local/erlang --without-javac
